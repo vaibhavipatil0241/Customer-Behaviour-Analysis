@@ -83,12 +83,12 @@ Customer-Behaviour-Analysis/
 4. Open Power BI Dashboard (.pbix) file to explore the interactive reports.
 
 📢 Summary
-This end-to-end data analysis project demonstrates:
+   This end-to-end data analysis project demonstrates:
 
-Data cleaning and transformation using Python
+   Data cleaning and transformation using Python
 
-Advanced SQL analytics for insight generation
+   Advanced SQL analytics for insight generation
 
-Professional visualization through Power BI
+   Professional visualization through Power BI
 
-It provides actionable business insights into customer loyalty, purchase behavior, and marketing effectiveness — empowering data-driven decision-making.
+   It provides actionable business insights into customer loyalty, purchase behavior, and marketing effectiveness — empowering data-driven decision-making.
