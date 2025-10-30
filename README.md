@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customer-Behavior-Analysis
 This project, Customer Shopping Behavior, follows a clear analytical pipeline from raw data to actionable reporting.
 
@@ -22,3 +23,6 @@ Phase 3: **Reporting and Visualization** (Power BI)
 Data Connection: The final output of the SQL queries was connected to the visualization tool (Customer Behavior Dashboard.pbix).
 
 Dashboarding: A dynamic Power BI dashboard was built to visualize the key metrics (e.g., segmentation counts and gender revenue disparity) for business stakeholders.
+=======
+# Customer-Behaviour-Analysis
+>>>>>>> 428930c1e0fc427973f1806ee1494866573ee2bb
