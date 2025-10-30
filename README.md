@@ -1,28 +1,94 @@
-<<<<<<< HEAD
-# Customer-Behavior-Analysis
-This project, Customer Shopping Behavior, follows a clear analytical pipeline from raw data to actionable reporting.
+# 🛍️ Customer Behaviour Analysis
 
-Phase 1: **Data Setup and Transformation** (Python/Jupyter)
+This project, **Customer Shopping Behavior**, follows a clear analytical pipeline — from raw data preparation to insightful reporting — to understand and visualize how different customer groups behave, spend, and respond to discounts.
 
-Ingest and Clean: The raw data (customer_shopping_behavior.csv) was ingested and cleaned within a Python environment (customer_shopping_behaviour.ipynb).
+---
 
-Database Loading: The cleaned data was loaded into a PostgreSQL database table named customer to enable complex relational querying.
+## 📊 Phase 1: Data Setup and Transformation (Python/Jupyter)
 
-Phase 2: **Core Analysis and Metric Generation** (SQL)
+### 🔹 Ingest and Clean
+The raw dataset (`customer_shopping_behavior.csv`) was imported and cleaned within a **Python Jupyter Notebook** (`customer_shopping_behaviour.ipynb`).
 
-The primary analysis was performed using advanced SQL queries (customer_shopping_behaviorSQL.sql) to generate key performance indicators (KPIs) and segments.
+### 🔹 Database Loading
+After cleaning, the data was loaded into a **PostgreSQL** database table named `customer` to enable structured querying and relational analysis.
 
-Revenue Analysis (Q1 & Q5): Calculated total revenue by gender and compared average spend/total revenue between subscribed and non-subscribed customers to quantify financial disparity.
+---
 
-Segmentation (Q7): Used conditional logic to segment the entire customer base into Loyal, Returning, and New groups based on previous purchases, providing a foundational marketing framework.
+## 🧮 Phase 2: Core Analysis and Metric Generation (SQL)
 
-Product/Discount Analysis (Q3 & Q6): Identified the top 5 highest-rated products and analyzed the effectiveness of discounts on high-value transactions.
+Key analyses were performed using advanced **SQL queries** (`customer_shopping_behaviorSQL.sql`) to generate **KPIs**, customer segmentation, and business insights.
 
-Phase 3: **Reporting and Visualization** (Power BI)
+### 🔸 Revenue Analysis (Q1 & Q5)
+- Calculated **total revenue by gender**.  
+- Compared **average spend** and **total revenue** between **subscribed** and **non-subscribed** customers.
 
-Data Connection: The final output of the SQL queries was connected to the visualization tool (Customer Behavior Dashboard.pbix).
+### 🔸 Customer Segmentation (Q7)
+Segmented the customer base into:
+- **Loyal Customers** — Repeat purchasers with multiple transactions.  
+- **Returning Customers** — Occasional repeat buyers.  
+- **New Customers** — First-time purchasers.
 
-Dashboarding: A dynamic Power BI dashboard was built to visualize the key metrics (e.g., segmentation counts and gender revenue disparity) for business stakeholders.
-=======
-# Customer-Behaviour-Analysis
->>>>>>> 428930c1e0fc427973f1806ee1494866573ee2bb
+### 🔸 Product & Discount Analysis (Q3 & Q6)
+- Identified the **Top 5 highest-rated products**.  
+- Analyzed the **impact of discounts** on high-value transactions to assess promotional effectiveness.
+
+---
+
+## 📈 Phase 3: Reporting and Visualization (Power BI)
+
+### 🔹 Data Connection
+The output from SQL queries was connected to **Power BI** (`Customer Behavior Dashboard.pbix`) for business reporting.
+
+### 🔹 Dashboard Highlights
+- Dynamic visual representation of **revenue trends**, **customer segments**, and **gender-based insights**.  
+- Real-time KPIs for management decisions.  
+- Drill-through analytics for exploring purchase patterns.
+
+---
+
+## 🛠️ Tools and Technologies
+
+| Category | Tools Used |
+|-----------|------------|
+| Data Cleaning | Python, Pandas |
+| Database | PostgreSQL |
+| Querying | SQL |
+| Visualization | Power BI |
+| IDE/Environment | Jupyter Notebook, VS Code |
+
+---
+
+## 📂 Project Structure
+
+Customer-Behaviour-Analysis/
+│
+├── customer_shopping_behavior.csv
+├── customer_shopping_behaviour.ipynb
+├── customer_shopping_behaviorSQL.sql
+├── Customer Behavior Dashboard.pbix
+└── README.md                                                                                                                                                                  
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vaibhavipatil0241/Customer-Behaviour-Analysis.git
+   cd Customer-Behaviour-Analysis
+2. Open and run the Jupyter Notebook for data cleaning:
+
+   jupyter notebook customer_shopping_behaviour.ipynbjupyter notebook customer_shopping_behaviour.ipynb
+3. Execute SQL scripts in PostgreSQL.
+
+4. Open Power BI Dashboard (.pbix) file to explore the interactive reports.
+
+📢 Summary
+This end-to-end data analysis project demonstrates:
+
+Data cleaning and transformation using Python
+
+Advanced SQL analytics for insight generation
+
+Professional visualization through Power BI
+
+It provides actionable business insights into customer loyalty, purchase behavior, and marketing effectiveness — empowering data-driven decision-making.
